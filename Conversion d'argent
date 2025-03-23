@@ -1,0 +1,15 @@
+
+taux_echange_pesos = 0.53 #1 pesos = 0.53e
+taux_echange_soles = 0.25 #1 soles = 0.25e
+taux_echange_reais = 0.18 #1 reais = 0.18e
+
+pesos = float(input('Combien de pesos il vous reste ? '))
+soles = float(input('Combien de soles il vous reste ? '))
+reais = float(input('Combien de reais il vous reste ? '))
+
+e_pesos = pesos*taux_echange_pesos
+e_soles = soles*taux_echange_soles
+e_reais = reaiss*taux_echange_reais
+
+e_total = e_pesos+e_soles+e_reais
+print(e_total)
